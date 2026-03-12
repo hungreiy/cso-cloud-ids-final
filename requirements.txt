@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+scipy
+torch
+torchvision
+torchaudio
+networkx
+shap
+opacus
+flwr

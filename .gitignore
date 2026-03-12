@@ -1,0 +1,17 @@
+# datasets
+data/
+*.pkl
+*.npy
+
+# python
+__pycache__/
+*.pyc
+
+# virtual env
+.venv/
+
+# logs
+logs/
+
+# notebook checkpoints
+.ipynb_checkpoints/
