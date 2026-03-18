@@ -1,17 +1,86 @@
-# datasets
-data/
-*.pkl
-*.npy
-
-# python
+# =========================
+# PYTHON
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# virtual env
+# Virtual environments
 .venv/
+venv/
+env/
+ENV/
 
-# logs
+# =========================
+# DATA (VERY IMPORTANT)
+# =========================
+data/
+*.csv
+*.pkl
+*.parquet
+*.h5
+
+# =========================
+# NUMPY / ML FILES
+# =========================
+*.npy
+*.npz
+
+# =========================
+# MODEL FILES
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# =========================
+# RESULTS (KEEP ONLY LIGHT FILES)
+# =========================
+results/**/*.npy
+results/**/*.pt
+results/**/*.pth
+
+# =========================
+# LOGS
+# =========================
 logs/
+*.log
 
-# notebook checkpoints
+# =========================
+# NOTEBOOKS
+# =========================
 .ipynb_checkpoints/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# TEMP FILES
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# OPTIONAL: CACHE / BUILD
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# KEEP THESE (IMPORTANT)
+# =========================
+!results/**/*.json
+!results/**/*.txt
+!README.md
+!requirements.txt

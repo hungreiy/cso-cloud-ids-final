@@ -1,0 +1,13 @@
+{
+    "accuracy": 0.55362,
+    "precision": 0.9993983503153809,
+    "recall": 0.5358320933184878,
+    "f1": 0.697627789142834,
+    "threshold": 0.0005627793143503368,
+    "epochs": 10,
+    "batch_size": 128,
+    "seq_len": 15,
+    "input_dim": 110,
+    "max_benign": 100000,
+    "max_test": 100000
+}
